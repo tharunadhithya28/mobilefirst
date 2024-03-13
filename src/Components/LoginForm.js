@@ -26,7 +26,7 @@ const LoginForm = () => {
          if (password === credentials.originalPassword && email === credentials.originalEmail){
           navigate("/home")
          }else{
-          const errorForMain = "*Incorrecst Email/Password. Please check the credentials"
+          const errorForMain = "*Incorrect Email/Password. Please check the credentials"
           setPwdError("")
           setMailError("")
           setMainError(errorForMain)
