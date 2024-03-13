@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+
+.loginbox{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 50px;
+  height: 500px;
+  border-radius: 25px;
+  color: black ;
+  font-weight: bold;
+  font-size: large;
+
+}
+
+.loginText {
+  text-align: center;
+}
+
+.input{
+  width: 280px;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.loginPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(249,206,52);
+  height: 100vh;
+  width: 100%;
+}
+
+.showPassword {
+  font-size: 10px;
+  color: red;
+}
+
+@media (min-width: 300px) {
+  .input{
+    width:230px;
+  }
+ }
+
+ @media (min-width: 576px) { 
+
+  .input{
+    width: 450px;
+  }
+  }
+
+  @media (min-width: 768px) { 
+    .input{
+      width: 550px;
+    }
+  }
+
